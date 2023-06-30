@@ -1,0 +1,35 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "A web app that can take an objective and make a GPT api call and then break that task down into individual steps to complete the project.",
+  "main": "server/index.ts",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^10.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "typescript": "^4.0.3",
+    "tailwindcss": "^2.0.2",
+    "postcss": "^8.2.1",
+    "autoprefixer": "^10.1.0",
+    "@chakra-ui/react": "^1.0.1",
+    "@emotion/react": "^11.1.1",
+    "@emotion/styled": "^11.0.0",
+    "framer-motion": "^3.1.1",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.2"
+  }
+}
