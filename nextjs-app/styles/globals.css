@@ -1,0 +1,30 @@
+/* Reset some basic elements */
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set up some default styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Add global styles for a tag */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Add global styles for button tag */
+button {
+  cursor: pointer;
+}
+
+/* Add global styles for input tag */
+input, textarea {
+  font-family: inherit;
+}
